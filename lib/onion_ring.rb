@@ -1,5 +1,6 @@
 require 'oily_png'
 require 'digest/sha1'
+require 'onion_ring/cli'
 
 module OnionRing
   def self.run(source_file_name, output_file_name = nil)

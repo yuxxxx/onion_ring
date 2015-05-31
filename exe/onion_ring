@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
 
 require "onion_ring"
+OnionRing::CLI.start
