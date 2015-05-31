@@ -14,6 +14,18 @@ gem install oily_png
 
 ruby sample.rb
 
+## command
+
+Gem化すると同時にコマンドを追加しました。
+
+```
+onion_ring slice before_directory after_directory slice_borders
+```
+
+- before_directory: 変換前の画像があるディレクトリまたはファイル
+- after_directory: 変換後の画像を置くディレクトリまたはファイル
+- slice_borders: ファイル名と境界の情報を書き出すファイル。省略した場合は標準出力に書き出します。
+
 ## LICENSE
 
 The MIT License (MIT)
